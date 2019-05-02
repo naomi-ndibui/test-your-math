@@ -24,6 +24,17 @@ public class Math {
               randy();
               i++;
            }
-           
+
+           finaloutput();
+       }
+       public static void randy()
+       {
+           Random randy1 = new Random();
+           Random randy2 = new Random();
+           int m = randy1.nextInt(10) + 1;
+           int n = randy1.nextInt(10) + 1;
+           int o = randy2.nextInt(3);
+
+           calc(m,n,o);
        }
 }
