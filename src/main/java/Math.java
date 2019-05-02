@@ -77,5 +77,12 @@ public class Math {
                System.out.println("That is incorrect! The answer is " + answer + "\n");
                numwrong++;
            }
+
+           public static void finaloutput()
+           {
+               double percentage = numright * 100 / (numright + numwrong);
+
+               System.out.println("The number of questions you answered correctly is " + numright + " and the number you answered incorrectly is " + numwrong + ". The percentage of questions answered correctly is " + percentage + "%.\n");
+           }
        }
 }
