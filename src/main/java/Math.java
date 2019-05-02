@@ -9,8 +9,10 @@ public class Math {
 
            keyboard.nextInt();
 
-           if (j == 0){
-               
+           if (j == 0)
+           {
+               System.out.println("That's no fun!\n");
+               System.exit(0);
            }
        }
 }
