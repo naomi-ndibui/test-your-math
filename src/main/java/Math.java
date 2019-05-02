@@ -71,5 +71,11 @@ public class Math {
                System.out.println("That is correct!\n");
                numright++;
            }
+
+           else
+           {
+               System.out.println("That is incorrect! The answer is " + answer + "\n");
+               numwrong++;
+           }
        }
 }
