@@ -14,5 +14,14 @@ public class Math {
                System.out.println("That's no fun!\n");
                System.exit(0);
            }
+
+           if (j < 0)
+               j = j * -1;
+
+           int i = 0;
+           while (i< j)
+           {
+               
+           }
        }
 }
