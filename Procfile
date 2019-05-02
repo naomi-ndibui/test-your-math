@@ -1,0 +1,1 @@
+web: ./build/install/test-your-math/bin/test-your-math
