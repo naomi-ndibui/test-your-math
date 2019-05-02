@@ -21,7 +21,9 @@ public class Math {
            int i = 0;
            while (i< j)
            {
-               
+              randy();
+              i++;
            }
+           
        }
 }
