@@ -1,13 +1,17 @@
 import java.util.*;
 
+import static org.apache.commons.lang.math.RandomUtils.nextDouble;
+
 public class Math {
-       public static Scanner keyboard = new Scanner(System.in);
+//       public static Scanner keyboard = new Scanner(System.in);
        public static void main(String [] args)
        {
            System.out.print("How many math questions do you want: ");
-           int j = keyboard.nextInt();
+//           int j = keyboard.nextInt();
 
-           keyboard.nextInt();
+//           keyboard.nextInt();
+
+            int j = 0;
 
            if (j == 0)
            {
@@ -25,8 +29,10 @@ public class Math {
               i++;
            }
 
-           finaloutput();
+           finalOutput();
        }
+
+
        public static void randy()
        {
            Random randy1 = new Random();
@@ -64,7 +70,7 @@ public class Math {
            }
 
 
-           double input = keyboard.nextDouble();
+           double input = nextDouble();
 
            if (input == answer)
            {
@@ -78,11 +84,12 @@ public class Math {
                numwrong++;
            }
 
-           public static void finaloutput()
-           {
-               double percentage = numright * 100 / (numright + numwrong);
-
-               System.out.println("The number of questions you answered correctly is " + numright + " and the number you answered incorrectly is " + numwrong + ". The percentage of questions answered correctly is " + percentage + "%.\n");
-           }
        }
+
+    public static void finalOutput()
+    {
+        double percentage = numright * 100 / (numright + numwrong);
+
+        System.out.println("The number of questions you answered correctly is " + numright + " and the number you answered incorrectly is " + numwrong + ". The percentage of questions answered correctly is " + percentage + "%.\n");
+    }
 }
