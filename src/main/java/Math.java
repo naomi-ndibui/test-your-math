@@ -37,4 +37,19 @@ public class Math {
 
            calc(m,n,o);
        }
+
+       public static int numright = 0;
+       public static int numwrong = 0;
+
+       public static void calc(int a, int b , int c)
+       {
+           double answer = 0;
+
+           if (c == 0)
+           {
+               answer = a + b;
+               System.out.println("What is" + a +"+" + b + ":");
+           }
+           
+       }
 }
