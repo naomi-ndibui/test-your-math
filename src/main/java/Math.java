@@ -50,6 +50,26 @@ public class Math {
                answer = a + b;
                System.out.println("What is" + a +"+" + b + ":");
            }
-           
+
+           if (c == 1)
+           {
+               answer = a-b;
+               System.out.println("What is" +a + " - " + b + ": ");
+           }
+
+           if (c == 2)
+           {
+               answer = a * b;
+               System.out.println("What is " + a + " x " + b + ": ");
+           }
+
+
+           double input = keyboard.nextDouble();
+
+           if (input == answer)
+           {
+               System.out.println("That is correct!\n");
+               numright++;
+           }
        }
 }
