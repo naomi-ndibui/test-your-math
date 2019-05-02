@@ -8,5 +8,9 @@ public class Math {
            int j = keyboard.nextInt();
 
            keyboard.nextInt();
+
+           if (j == 0){
+               
+           }
        }
 }
